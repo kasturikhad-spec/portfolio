@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasturi Khade - Portfolio</title>
+    <meta name="description" content="Minimalist and modern web portfolio">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+</head>
+
+<body>
+
+    <!-- Ambient Background Elements -->
+    <div class="bg-glow-container">
+        <div class="bg-glow-1"></div>
+        <div class="bg-glow-2"></div>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <a href="#" class="logo">k.<span>Portfolio</span></a>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="about">
+            <div class="hero-content">
+                <p class="intro">Hi, my name is</p>
+                <h1 class="title">Kasturi Khade.</h1>
+                <h2 class="subtitle">I build things for the web.</h2>
+                <p class="description">
+                    I'm a software engineer specializing in building exceptional digital experiences. Currently, I'm
+                    focused
+                    on creating accessible, human-centered products anchored by minimal, sleek design and smooth
+                    interactions.
+                </p>
+                <a href="#work" class="btn">Check out my work</a>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-frame">
+                    <img src="WhatsApp Image 2026-04-28 at 11.44.27.jpeg" alt="Kasturi Khade">
+                    <div class="hero-scanlines"></div>
+                    <div class="hero-image-corner"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2 class="section-title">My Tech Stack</h2>
+            <div class="skills-grid">
+                <a href="#" title="C" class="skill-card"><i class="devicon-c-plain"></i> <span>C</span></a>
+                <a href="#" title="C++" class="skill-card"><i class="devicon-cplusplus-plain"></i> <span>C++</span></a>
+                <a href="#" title="Python" class="skill-card"><i class="devicon-python-plain"></i> <span>Python</span></a>
+                <a href="#" title="HTML5" class="skill-card"><i class="devicon-html5-plain"></i> <span>HTML5</span></a>
+                <a href="#" title="CSS3" class="skill-card"><i class="devicon-css3-plain"></i> <span>CSS3</span></a>
+                <a href="#" title="Java" class="skill-card"><i class="devicon-java-plain"></i> <span>Java</span></a>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects" id="work">
+            <h2 class="section-title">Some Things I've Built</h2>
+            <div class="grid">
+
+                <!-- Project 1 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="cyberpunk_landing_page.png" alt="Cyberpunk Landing Page">
+                    </div>
+                    <div class="card-header">
+                        <i class="fa-regular fa-folder folder-icon"></i>
+                        <div class="links">
+                            <a href="https://drive.google.com/file/d/1i29C37_1gXkteItHaxrO6oIqvpOv9UbX/view?usp=sharing&t=20"
+                                title="External Link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Cyberpunk Landing Page</h3>
+                    <p class="card-text">A visually stunning, high-performance landing page created with pure HTML and
+                        CSS. Features neon aesthetics, glassmorphism, and kinetic hover animations.</p>
+                    <div class="tech-stack">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>Vanilla JS</span>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="retro_game_hub.png" alt="Retro Game Hub">
+                    </div>
+                    <div class="card-header">
+                        <i class="fa-regular fa-folder folder-icon"></i>
+                        <div class="links">
+                            <a href="#" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Retro Game Hub</h3>
+                    <p class="card-text">A modern spin on retro 80s arcade UI. Includes dynamic responsive grids, glitch
+                        effects, and intricate CSS-only 3D visuals to showcase top game titles.</p>
+                    <div class="tech-stack">
+                        <span>React</span>
+                        <span>Framer Motion</span>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="card">
+                    <div class="card-image">
+                        <img src="minimalist_os.png" alt="Minimalist OS Interface">
+                    </div>
+                    <div class="card-header">
+                        <i class="fa-regular fa-folder folder-icon"></i>
+                        <div class="links">
+                            <a href="#" title="External Link"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="card-title">Minimalist OS Interface</h3>
+                    <p class="card-text">A simulated operating system layout inside the browser featuring draggable
+                        windows, custom context menus, and a sophisticated minimalist aesthetic.</p>
+                    <div class="tech-stack">
+                        <span>Vue.js</span>
+                        <span>SCSS</span>
+                        <span>Vite</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact">
+        <h2 class="section-title" style="justify-content: center; margin-bottom: 2rem;">Get In Touch</h2>
+        <p style="margin-bottom: 2rem; font-weight: 300;">My inbox is always open. Whether you have a question or just
+            want to say hi, I'll try my best to get back to you!</p>
+        <a href="mailto:hello@example.com" class="btn" style="margin-bottom: 3rem;">Say Hello</a>
+
+        <div class="social-links">
+            <a href="https://github.com/" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="Kasturikhade60@gmail.com" title="Gmail"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/kasturi-khade-56375a386?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com/" target="_blank" title="Instagram"><i
+                    class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Designed & Built by Kasturi Khade</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
